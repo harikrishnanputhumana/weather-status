@@ -1,25 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import axios from 'axios'
-import { API_KEY } from './constants/constants';
+import Home from './pages/Home';
 function App() {
-  const [temp,setTemp]=useState()
-  function test(){
-    axios.get(`http://api.weatherstack.com/current?access_key=${API_KEY}&query=delhi`).then((response)=>{
-      console.log(response);
-      setTemp(response.data.current.temperature)
-    })
-  }
-    return(
-      <div className="App">
-      <button onClick={test}>click</button>
-      <h1>{temp}</h1>
 
+  return (
+    <div className="App">
+
+      <Home />
 
     </div>
-    )
-    
-  
+  )
+
+
 }
 
 export default App;
