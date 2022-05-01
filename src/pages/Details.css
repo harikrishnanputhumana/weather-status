@@ -1,8 +1,53 @@
-.box{
-    border-radius: 2ex;
-    border-color: white;
-    background-color: brown;
-    height: 30vh;
-    width: 30vh;
-    margin-left: 9vh;
+body {
+    /* (A) REMOVE DEFAULT PAGE SPACING */
+    margin: 0;
+    padding: 0;
+
+    /* (B) FILL ENTIRE WINDOW */
+    width: 100vw;
+    min-height: 100vh;
+
+    /* (C) BACKGROUND IMAGE */
+    background-image: url("../DeathAndHeaven-56a146ce3df78cf7726919a9.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.homebody{
+    margin-top: 25%;
+}
+.btn {
+    background-color: rgba(37, 86, 121, 0.554);
+    padding: 1%;
+    width: 15%;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    top: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+input {
+    padding: 1.5%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: transparent;
+
+    border-radius: 6px;
+    width: 30%;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.197);
+
+}
+input ::placeholder{
+    color: white;
 }
