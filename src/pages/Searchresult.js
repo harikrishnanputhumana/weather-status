@@ -18,7 +18,6 @@ function Searchresult() {
     const {searchValue}=useContext(AuthContext)
     const data= searchValue.current.weather_descriptions
     const temp=searchValue.current.temperature
-    const humidity=searchValue.current.humidity
     const pressure=searchValue.current.pressure
     const location=searchValue.location.name
     
@@ -55,7 +54,6 @@ function Searchresult() {
 
         <h3>{data}</h3>
         <div>{details}</div>
-        <h5>H : {humidity}</h5>
         <h5>{pressure}Pa</h5>
         </div>
 

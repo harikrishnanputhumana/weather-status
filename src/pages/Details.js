@@ -42,9 +42,6 @@ function Details() {
         
             
 
-            <footer className='footer'>
-                <h5>footer</h5>
-            </footer>
 
 
         </div>

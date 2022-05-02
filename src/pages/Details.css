@@ -35,6 +35,7 @@ body {
 }
 
 input {
+    margin-top: 5%;
     padding: 1.5%;
     border-top-style: hidden;
     border-right-style: hidden;
