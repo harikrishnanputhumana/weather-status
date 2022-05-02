@@ -10,6 +10,7 @@ function Home() {
     return (
         <div className='home'>
             <Details/>
+            
         </div>
     )
 }
