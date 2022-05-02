@@ -1,3 +1,13 @@
 .Search{
     margin-top: 20%;
 }
+.box{
+    background-color: #5c627857;
+    width: auto;
+    height: auto;
+    border: 3px solid #30333c69;
+    margin: 25px;
+}
+.box h2{
+    padding-top: 5px;
+}
