@@ -15,7 +15,7 @@ body {
     color: white;
 }
 .homebody{
-    margin-top: 10%;
+    margin-top: 3%;
 }
 .btn {
     background-color: rgba(37, 86, 121, 0.554);
@@ -42,7 +42,7 @@ input {
     border-left-style: hidden;
     border-bottom-style: groove;
     background-color: transparent;
-
+    color: white;
     border-radius: 6px;
     width: 30%;
     outline: none;

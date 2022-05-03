@@ -20,6 +20,7 @@ function Searchresult() {
     const temp=searchValue.current.temperature
     const pressure=searchValue.current.pressure
     const location=searchValue.location.name
+    const time=searchValue.location.localtime
     
     // const data="Clear"
     let details
@@ -43,6 +44,10 @@ function Searchresult() {
         details= <div><WiCloudy size={150} color='#fff' /></div>
     }else if(data=="Clear"){
         details= <div><WiDaySunny size={150} color='#fff' /></div>
+    }else if(data=="Widespread Dust"){
+        details= <div><WiDust size={150} color='#fff' /></div>
+    }else{
+
     }
     
   return (
@@ -50,11 +55,12 @@ function Searchresult() {
         <Details/>
         <div className="box">
         <p>{location}</p>
-        <h2>{temp}C°</h2>
+        <p>{time}</p>
+        <h2>{temp} °C</h2>
 
         <h3>{data}</h3>
         <div>{details}</div>
-        <h5>{pressure}Pa</h5>
+        <h5>{pressure} Pa</h5>
         </div>
 
 
