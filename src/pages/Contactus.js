@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-grid-system';
 import './Contactus.css'
 function Contactus() {
   return (
-    <div>
+    <div className='contact'>
         <Container>
             <Row>
                 <Col md={3}>
@@ -11,11 +11,11 @@ function Contactus() {
                 </Col>
                 <Col md={3}>
                 <label htmlFor="">Email</label> <br />
-                <input type="text" />
+                <input type="email" />
                 </Col>
                 <Col md={3}>
                 <label htmlFor="">Suggestions</label> <br />
-                <input type="text" />
+                <textarea name="Text1" cols="40" rows="5"></textarea>
                 </Col>
                 <Col md={3}>    
                  <button>Submit</button>

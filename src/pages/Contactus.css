@@ -1,6 +1,31 @@
-input{
+input {
     margin: 10%;
+    width: 60%;
 }
-button{
+
+button {
     margin-top: 19%;
+    background-color: rgba(37, 86, 121, 0.554);
+    padding: 1%;
+    width: 30%;
+    color: white;
+    border-radius: 5px;
+}
+
+textarea {
+    margin: 5%;
+    background-color: rgba(0, 0, 0, 0.197);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.contact {
+    background-color: #5c627857;
+    width: 90%;
+    height: auto;
+    border: 3px solid #30333c69;
+    padding: 5%;
+
 }
