@@ -14,12 +14,14 @@ body {
     background-repeat: no-repeat;
     color: white;
 }
-.homebody{
+
+.homebody {
     margin-top: 3%;
 }
+
 .btn {
     background-color: rgba(37, 86, 121, 0.554);
-    padding: 1%;
+    padding: 2%;
     width: 15%;
     color: white;
     border-radius: 5px;
@@ -49,6 +51,7 @@ input {
     background-color: rgba(0, 0, 0, 0.197);
 
 }
-::placeholder{
+
+::placeholder {
     color: white;
 }
