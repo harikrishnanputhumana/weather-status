@@ -7,7 +7,6 @@ import Context from './context/Context'
 ReactDOM.render(
   <React.StrictMode>
     <Context>
-
     <BrowserRouter>
     <App />
     </BrowserRouter>

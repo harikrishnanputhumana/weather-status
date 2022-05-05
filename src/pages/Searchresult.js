@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import './Searchresult.css'
 import { AuthContext } from '../context/Context'
 import { WiRain } from "weather-icons-react";
@@ -9,10 +9,6 @@ import { WiFog } from "weather-icons-react";
 import { WiCloudy} from "weather-icons-react";
 
 import Details from './Details';
-
-
-
-
 
 function Searchresult() {
     const {searchValue}=useContext(AuthContext)

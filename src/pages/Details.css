@@ -14,30 +14,16 @@ body {
     background-repeat: no-repeat;
     color: white;
 }
-
-.homebody {
-    margin-top: 3%;
-}
-
-.btn {
+.bttn {
     background-color: rgba(37, 86, 121, 0.554);
-    padding: 2%;
+    padding: 1%;
     width: 15%;
     color: white;
     border-radius: 5px;
 }
 
-.footer {
-    top: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-
-}
-
-input {
-    margin-top: 5%;
+.nav2 input {
+    margin: 8%;
     padding: 1.5%;
     border-top-style: hidden;
     border-right-style: hidden;
@@ -46,7 +32,7 @@ input {
     background-color: transparent;
     color: white;
     border-radius: 6px;
-    width: 30%;
+    width: 50%;
     outline: none;
     background-color: rgba(0, 0, 0, 0.197);
 

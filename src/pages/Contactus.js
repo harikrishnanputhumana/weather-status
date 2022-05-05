@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Container, Row, Col } from 'react-grid-system';
 import './Contactus.css'
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
 import emailjs from 'emailjs-com'
 function Contactus() {
     const navigate = useNavigate()
@@ -22,7 +21,7 @@ function Contactus() {
     }
     return (
         <div className='contact'>
-            <form id='submit-form' onSubmit={submit}>
+            <form  onSubmit={submit}>
                 <Container>
                     <Row>
                         <Col md={3}>

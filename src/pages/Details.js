@@ -17,25 +17,28 @@ function Details() {
             console.log(res);
             const data = res.data
             setSearchValue(data)
-        }))
-        navigate('/Search')
+
+            if (res.data.success == false) {
+                navigate('/')
+                alert("An error occurred" + "\n" + "please check the spelling")
+            } else {
+                navigate('/Search')
+            }
+        })).catch((err) => {
+            console.log(err);
+            alert("An error occured")
+        })
 
     }
-
-
     return (
         <div className='homebody'>
             <div className="nav1">
-
                 <h1>Weather Live</h1>
-
             </div>
-
             <div className="nav2">
                 <input type="text" id='input' onChange={e => { setValue(e.target.value) }} placeholder='Location' />
                 <br />
-                <br />
-                <button className='btn' onClick={findout}>Search</button>
+                <button className='bttn' onClick={findout}>Search</button>
 
             </div>
 
