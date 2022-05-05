@@ -28,7 +28,6 @@ function Details() {
             console.log(err);
             alert("An error occured")
         })
-
     }
     return (
         <div className='homebody'>
@@ -39,9 +38,7 @@ function Details() {
                 <input type="text" id='input' onChange={e => { setValue(e.target.value) }} placeholder='Location' />
                 <br />
                 <button className='bttn' onClick={findout}>Search</button>
-
             </div>
-
         </div>
     )
 }

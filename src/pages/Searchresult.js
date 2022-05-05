@@ -18,7 +18,6 @@ function Searchresult() {
     const location=searchValue.location.name
     const time=searchValue.location.localtime
     
-    // const data="Clear"
     let details
     if(data=="Light Rain"){
         details= <div><WiRain size={150} color='#fff' /></div>

@@ -1,13 +1,8 @@
 body {
-    /* (A) REMOVE DEFAULT PAGE SPACING */
     margin: 0;
     padding: 0;
-
-    /* (B) FILL ENTIRE WINDOW */
     width: 100vw;
     min-height: 100vh;
-
-    /* (C) BACKGROUND IMAGE */
     background-image: url("../bgimg.jpg");
     background-size: cover;
     background-position: center;
